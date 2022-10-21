@@ -1,6 +1,6 @@
 import numpy as np
 
-class DisparityExtender:
+class Driver:
     CAR_WIDTH = 0.31
     # the min difference between adjacent LiDAR points for us to call them disparate
     DIFFERENCE_THRESHOLD = 2.
